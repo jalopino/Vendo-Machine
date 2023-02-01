@@ -10,131 +10,225 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="667dp"
         android:text="Vendo Machine"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="152dp"
-        android:layout_height="149dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/coke"
-        tools:layout_editor_absoluteY="119dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="174dp"
-        android:layout_height="153dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="28dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/sprite" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="156dp"
-        android:layout_height="163dp"
-        app:srcCompat="@drawable/fanta"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="316dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="178dp"
-        android:layout_height="161dp"
-        app:srcCompat="@drawable/pepsi"
-        tools:layout_editor_absoluteX="207dp"
-        tools:layout_editor_absoluteY="316dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter Amount: ______"
-        android:textColor="#000000"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="563dp" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="456dp"
         android:text="Coke 10\oz"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="429dp"
         android:text="10.00"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="291dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="279dp"
+        android:layout_marginBottom="188dp"
         android:text="20.00"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="498dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="428dp"
         android:text="15.00"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="276dp"
-        tools:layout_editor_absoluteY="291dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="188dp"
         android:text="25.00"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="276dp"
-        tools:layout_editor_absoluteY="498dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="498dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="214dp"
         android:text="Fanta 16oz"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="479dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="498dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="214dp"
         android:text="Pepsi 22oz"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="479dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="456dp"
         android:text="Sprite 12oz"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="264dp"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="490dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coke" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="490dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sprite" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fanta" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pepsi" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="109dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="135dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="596dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="87dp"
+        android:text="submit"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
